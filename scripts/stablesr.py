@@ -56,7 +56,7 @@ from srmodule.struct_cond import EncoderUNetModelWT, build_unetwt
 from srmodule.colorfix import adain_color_fix, wavelet_color_fix
 
 SD_WEBUI_PATH = Path.cwd()
-ME_PATH = SD_WEBUI_PATH / 'extensions' / 'sd-webui-stablesr'
+ME_PATH = SD_WEBUI_PATH / 'extensions-builtin' / 'sd-webui-stablesr'
 MODEL_PATH = ME_PATH / 'models'
 FORWARD_CACHE_NAME = 'org_forward_stablesr'
 
